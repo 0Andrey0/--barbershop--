@@ -59,18 +59,14 @@
         </fieldset>
         <fieldset class="filter-group">
           <legend>Группы товаров</legend>
-          <label>
-            <input type="radio" name="filter-group-btn" value="shaving-supplies">
-            Бритвенные принадлежности
-          </label>
-          <label>
-            <input type="radio" name="filter-group-btn" value="care" checked>
-            Средства для ухода
-          </label>
-          <label>
-            <input type="radio" name="filter-group-btn" value="accessories">
-            Аксесуары
-          </label>
+          <input type="radio" name="filter-group-btn" value="shaving-supplies" id="shaving-supplies">
+          <label for="shaving-supplies">Бритвенные принадлежности</label>
+
+          <input type="radio" name="filter-group-btn" value="care" id ="care" checked>
+          <label for="care">Средства для ухода</label>
+
+          <input type="radio" name="filter-group-btn" value="accessories" id="accessories">
+          <label for="accessories">Аксесуары</label>
         </fieldset>
         <input type="submit" value="Показать">
         </form>
