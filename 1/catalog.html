@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Barbershop - каталог</title>
+    <base href="https://htmlacademy-htmlcss.github.io/139041-barbershop/1/">
+</head>
+  <body>
+
+    <header class="main-header">
+      <div class="centralizer">
+        <div class="logo">
+          <a href="#">
+            <img src="http://placehold.it/100x50" alt="Barbershop" width="100" height="50">
+          </a>
+        </div>
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="#">Информация</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Пайс-лист</a></li>
+            <li class="active"><a href="#">Магазин</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="enter">
+          <a href="#">Вход</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1>Средства для ухода</h1>
+      <div class="breadcrumbs">
+        <a href="#" class="crumbs">Главная</a>
+        <a href="#" class="crumbs">Магазин</a>
+        <a href="#" class="crumbs-not-active">Средства для ухода</a>
+      </div>
+      <div class="filter">
+        <form action="https://echo.htmlacademy.ru/" method="post">
+        <div class="filter-manufacture">
+          <h2>Производители</h2>
+          <label>
+          <input type="checkbox" name="baxter" checked>
+          Baxter of California
+          </label>
+          <label>
+          <input type="checkbox" name="mr-natty">
+          Mr Natty
+          </label>
+          <label>
+          <input type="checkbox" name="suavecito" checked>
+          Suavecito
+          </label>
+          <label>
+          <input type="checkbox" name="malin-goetz">
+          Malin-Goetz
+          </label>
+          <label>
+          <input type="checkbox" name="murrays">
+          Murray's
+          </label>
+          <label>
+          <input type="checkbox" name="american-crew" checked>
+          American crew
+          </label>
+        </div> <!-- #1 нужен ли тут <br>? или если я укажу ширину родительского блока, то следующий блок (.filter-group) сам перенесется на следующую строчку? -->
+        <div class="filter-group">
+          <label>
+            <input type="radio" name="filter-group-btn" value="shaving-supplies">
+            Бритвенные принадлежности
+          </label>
+          <label>
+            <input type="radio" name="filter-group-btn" value="care" checked>
+            Средства для ухода
+          </label>
+          <label>
+            <input type="radio" name="filter-group-btn" value="accessories">
+            Аксесуары
+          </label>
+        </div>
+        <input type="submit" name="filter-results" value="Показать">
+        </form>
+      </div>
+      <div class="catalog">
+        <article class="catalog-travel-kit">
+          <figure>
+            <img src="http://placehold.it/200x200" alt="Travel Kit" width="200" height="200">
+          </figure>
+          <p>
+            Набор для путешествий <br>
+            "BAXTER OF CALIFORNIA"
+          </p>
+          <div class="price">
+            2 900 РУБ.
+            <a href="#">КУПИТЬ</a>
+          </div>
+        </article>
+        <article class="catalog-moisturizing-conditioner">
+          <figure>
+            <img src="http://placehold.it/200x200" alt="Moisturizing Conditioner" width="200" height="200">
+          </figure>
+          <p>
+            Увлажняющий кондиционер <br>
+            "BAXTER OF CALIFORNIA"
+          </p>
+          <div class="price">
+            750 РУБ.
+            <a href="#">КУПИТЬ</a>
+          </div>
+        </article>
+        <article class="catalog-hair-gel-suavecito">
+          <figure>
+            <img src="http://placehold.it/200x200" alt="Hair Gel" width="200" height="200">
+          </figure>
+          <p>
+            Гель для волос <br>
+            "SUAVECITO"
+          </p>
+          <div class="price">
+            290 РУБ.
+            <a href="#">КУПИТЬ</a>
+          </div>
+        </article>
+        <article class="catalog-clay-for-hair">
+          <figure>
+            <img src="http://placehold.it/200x200" alt="Clay For Hair" width="200" height="200">
+          </figure>
+          <p>
+            Глина для укладки волос <br>
+            "AMERICAN CREW"
+          </p>
+          <div class="price">
+            500 РУБ.
+            <a href="#">КУПИТЬ</a>
+          </div>
+        </article>
+        <article class="catalog-hair-gel-ac">
+          <figure>
+            <img src="http://placehold.it/200x200" alt="Hair Gel" width="200" height="200">
+          </figure>
+          <p>
+            Гель для волос <br>
+            "AMERICAN CREW"
+          </p>
+          <div class="price">
+            300 РУБ.
+            <a href="#">КУПИТЬ</a>
+          </div>
+        </article>
+        <article class="catalog-shaving-kit">
+          <figure>
+            <img src="http://placehold.it/200x200" alt="Shaving Kit" width="200" height="200">
+          </figure>
+          <p>
+            Набор для бритья <br>
+            "BAXTER OF CALIFORNIA"
+          </p>
+          <div class="price">
+            3 900 РУБ.
+            <a href="#">КУПИТЬ</a>
+          </div>
+        </article>
+      </div>
+      <div class="paginator">
+        <a href="#">1</a>
+        <a href="#" class="current">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
+  </body>
+</html>
