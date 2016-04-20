@@ -6,7 +6,7 @@ body {
   color: #000000;
 }
 
-h1 {
+h1, .index-content-title {
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   font-weight: bold;
   font-size: 30px;
