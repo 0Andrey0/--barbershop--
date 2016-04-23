@@ -9,7 +9,7 @@ body {
   text-transform: uppercase;
 }
 
-h1, .index-content-title, .item-page-name {
+h1, .index-content-title {
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   font-weight: bold;
   font-size: 30px;
@@ -17,7 +17,7 @@ h1, .index-content-title, .item-page-name {
   color: #000000;
 }
 
-h2, .maker-name, .group-type {
+h2, legend {
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   font-weight: bold;
   font-size: 24px;
@@ -201,9 +201,16 @@ input[type="submit"] {
   width: 150px;
   margin: 17px;
   margin-top: 0px;
+
 }
 .item-type {
+  text-decoration: none; /*ума не приложу, почему не работает "none". остальные св-ва работают*/
   text-transform: none;
+}
+
+.item-maker {
+  display: table;
+  text-decoration: none;
 }
 
 .price {
