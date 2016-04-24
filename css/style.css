@@ -1,23 +1,295 @@
 body {
+  margin: 0;
+  padding: 0;
   font-family: "PT Sans Narrow", "Arial", sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
   color: #000000;
+  text-transform: uppercase;
 }
 
-h1, .index-content-title {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
-  font-weight: bold;
+h1 {
   font-size: 30px;
   line-height: 42px;
   color: #000000;
 }
 
-h2 {
-  font-family: "PT Sans Narrow", "Arial", sans-serif;
-  font-weight: bold;
+h2, legend {
   font-size: 24px;
   line-height: 30px;
   color: #000000;
+}
+
+.main-header {
+  background-color: #000000;
+}
+
+.container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  width: 140px;
+  margin-right: 20px;
+}
+
+.main-navigation {
+  float: left;
+  width: 540px;
+}
+
+.enter {
+  float: right;
+  width: 140px;
+
+}
+
+.item-page-name {
+  margin-bottom: 25px;
+}
+.breadcrumbs {
+  margin-bottom: 60px;
+}
+
+/*baxter-kit*/
+.inner-main {
+  padding-top: 60px;
+  padding-bottom: 55px;
+  background: #f04;
+}
+.item-photo {
+  float: left;
+  width: 460px;
+}
+
+.item-photo img {
+  margin-bottom: 21px;
+}
+
+.photo-little {
+  font-size: 0px;
+  width: 460px;
+}
+
+.photo-little img {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.photo-little img:last-child {
+  margin-right: 0px;
+}
+
+.item-description {
+  float: right;
+  width: 390px;
+  padding-top: 26px;
+}
+
+.item-article {
+  margin-bottom: 40px;
+}
+
+.item-article .status {
+  float: left;
+  width: 45%;
+}
+
+.item-article .article {
+  float: right;
+  width: 45%;
+  color: #aeaeae;
+  text-align: right;
+}
+
+.item-description p {
+  padding: 0 1px;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+.item-price {
+  width: 187px;
+  font-size: 0px;
+  margin-bottom: 67px;
+}
+
+.price-btn span {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  line-height: 43px;
+  width: 109px;
+  background: #e5e5e5;
+}
+
+.price-btn a {
+  display: inline-block;
+  width: 78px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  line-height: 43px;
+  color: white;
+  background: #000000;
+  text-decoration: none;
+}
+
+.item-description .item-content {
+  margin-top: 39px;
+  padding-left: 20px;
+}
+
+.item-content li {
+  list-style: none;
+}
+
+/* catalog */
+.filter {
+  float: left;
+  width: 200px;
+}
+
+.filter-maker {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 35px;
+  border: none;
+}
+.filter-group {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 29px;
+  border: none;
+}
+
+.maker-name, .group-type {
+  margin-bottom: 32px;
+}
+.maker-check, .group-check {
+  margin-bottom: 17px;
+}
+
+input[type="submit"] {
+  display: table;
+  width: 112px;
+  height: 43px;
+  background: #000000;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.catalog {
+  float: right;
+  width: 700px;
+  font-size: 0px;
+}
+
+.catalog-item {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: top;
+  width: 220px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 17px;
+  background-color: white;
+}
+.catalog-item:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.catalog-item a {
+  text-decoration: none;
+}
+
+.catalog figure {
+  margin: 0px;
+}
+.catalog figcaption {
+  width: 150px;
+  margin: 17px;
+  margin-top: 0px;
+
+}
+.item-type {
+  display: block;
+  text-transform: none;
+  color: #000000;
+}
+
+.item-maker {
+  display: block;
+  color: #000000;
+}
+
+.price {
+  margin: 0px 17px;
+  width: 187px;
+  height: 43px;
+  background: red;
+  font-size: 0px;
+}
+
+.paginator {
+  font-size: 0px;
+  margin-top: 45px;
+}
+.paginator a {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 14px;
+  width: 43px;
+  line-height: 43px;
+  background: #000000;
+  color: white;
+  margin-right: 7px;
+  text-decoration: none;
+}
+.paginator .current {
+  background: white;
+  color: #000000;
+}
+
+/* Футер */
+.main-footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 90px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
 }
