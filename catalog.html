@@ -29,157 +29,159 @@
       </div>
     </header>
 
-    <main class="container">
-      <h1 class="item-page-names">Средства для ухода</h1>
-      <div class="breadcrumbs">
-        <a href="index.html" class="crumbs">Главная</a>
-        <a href="#" class="crumbs">Магазин</a>
-        <a class="crumbs-not-active">Средства для ухода</a>
-      </div>
-      <div class="filter">
-        <form action="https://echo.htmlacademy.ru/" method="get">
-        <fieldset class="filter-maker">
-          <legend class="maker-name">Производители</legend>
-          <div class="maker-check">
-            <input type="checkbox" name="baxter-maker" id="baxter-of-california" checked>
-            <label for="baxter-of-california">Baxter of California</label>
+    <main class="inner-main">
+      <div class="container clearfix">
+        <h1 class="item-page-names">Средства для ухода</h1>
+        <div class="breadcrumbs">
+          <a href="index.html" class="crumbs">Главная</a>
+          <a href="#" class="crumbs">Магазин</a>
+          <a class="crumbs-not-active">Средства для ухода</a>
+        </div>
+        <div class="filter">
+          <form action="https://echo.htmlacademy.ru/" method="get">
+          <fieldset class="filter-maker">
+            <legend class="maker-name">Производители</legend>
+            <div class="maker-check">
+              <input type="checkbox" name="baxter-maker" id="baxter-of-california" checked>
+              <label for="baxter-of-california">Baxter of California</label>
+            </div>
+            <div class="maker-check">
+              <input type="checkbox" name="mr-natty-maker" id="mr-natty">
+              <label for="mr-natty">Mr Natty</label>
+            </div>
+            <div class="maker-check">
+              <input type="checkbox" name="suavecito-maker" id="suavecito" checked>
+              <label for="suavecito">Suavecito</label>
+            </div>
+            <div class="maker-check">
+              <input type="checkbox" name="malin-goetz-maker" id="malin-goetz">
+              <label for="malin-goetz">Malin-Goetz</label>
+            </div>
+            <div class="maker-check">
+              <input type="checkbox" name="murrays-maker" id="murrays">
+              <label for="murrays">Murray's</label>
+            </div>
+            <div class="maker-check">
+              <input type="checkbox" name="american-crew-maker" id="american-crew" checked>
+              <label for="american-crew">American crew</label>
+            </div>
+          </fieldset>
+          <fieldset class="filter-group">
+            <legend class="group-type">Группы товаров</legend>
+            <div class="group-check">
+              <input type="radio" name="filter-group-btn" value="shaving-supplies" id="shaving-supplies">
+              <label for="shaving-supplies">Бритвенные принадлежности</label>
+            </div>
+            <div class="group-check">
+              <input type="radio" name="filter-group-btn" value="care" id ="care" checked>
+              <label for="care">Средства для ухода</label>
+            </div>
+            <div class="group-check">
+              <input type="radio" name="filter-group-btn" value="accessories" id="accessories">
+              <label for="accessories">Аксесуары</label>
+            </div>
+          </fieldset>
+          <input type="submit" value="Показать">
+          </form>
+        </div>
+        <div class="catalog">
+          <article class="catalog-item">
+            <a href="baxter-kit.html">
+              <figure>
+                <img src="img/catalog/travel-kit-boc.jpg" alt="Travel Kit BoC" width="220" height="165">
+                <figcaption>
+                  <span class="item-type">Набор для путешествий</span>
+                  <span class="item-maker">"BAXTER OF CALIFORNIA"</span>
+                </figcaption>
+              </figure>
+            </a>
+            <div class="price price-btn">
+              <span>2 900 РУБ.</span>
+              <a href="#">КУПИТЬ</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <a href="#">
+              <figure>
+                <img src="img/catalog/moisturizing-conditioner-boc.jpg" alt="Moisturizing Conditioner BoC" width="220" height="165">
+                <figcaption>
+                  <span class="item-type">Увлажняющий кондиционер</span>
+                  <span class="item-maker">"BAXTER OF CALIFORNIA"</span>
+                </figcaption>
+              </figure>
+            </a>
+            <div class="price price-btn">
+              <span>750 РУБ.</span>
+              <a href="#">КУПИТЬ</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <a href="#">
+              <figure>
+                <img src="img/catalog/hair-gel-suavecito.jpg" alt="Hair Gel Suavecito" width="220" height="165">
+                <figcaption>
+                  <span class="item-type">Гель для волос</span>
+                  <span class="item-maker">"SUAVECITO"</span>
+                </figcaption>
+              </figure>
+            </a>
+            <div class="price price-btn">
+              <span>290 РУБ.</span>
+              <a href="#">КУПИТЬ</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <a href="#">
+              <figure>
+                <img src="img/catalog/clay-for-hair-american-crew.jpg" alt="Clay For Hair American Crew" width="220" height="165">
+                <figcaption>
+                  <span class="item-type">Глина для укладки волос</span>
+                  <span class="item-maker">"AMERICAN CREW"</span>
+                </figcaption>
+              </figure>
+            </a>
+            <div class="price price-btn">
+              <span>500 РУБ.</span>
+              <a href="#">КУПИТЬ</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <a href="#">
+              <figure>
+                <img src="img/catalog/hair-gel-american-crew.jpg" alt="Hair Gel American crew" width="220" height="165">
+                <figcaption>
+                  <span class="item-type">Гель для волос</span>
+                  <span class="item-maker">"AMERICAN CREW"</span>
+                </figcaption>
+              </figure>
+            </a>
+            <div class="price price-btn">
+              <span>300 РУБ.</span>
+              <a href="#">КУПИТЬ</a>
+            </div>
+          </article>
+          <article class="catalog-item">
+            <a href="#">
+              <figure>
+                <img src="img/catalog/shaving-kit-boc.jpg" alt="Shaving Kit BoC" width="220" height="165">
+                <figcaption>
+                  <span class="item-type">Набор для бритья</span>
+                  <span class="item-maker">"BAXTER OF CALIFORNIA"</span>
+                </figcaption>
+              </figure>
+            </a>
+            <div class="price price-btn">
+              <span>3 900 РУБ.</span>
+              <a href="#">КУПИТЬ</a>
+            </div>
+          </article>
+          <div class="paginator">
+            <a href="#">1</a>
+            <a class="current">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
           </div>
-          <div class="maker-check">
-            <input type="checkbox" name="mr-natty-maker" id="mr-natty">
-            <label for="mr-natty">Mr Natty</label>
-          </div>
-          <div class="maker-check">
-            <input type="checkbox" name="suavecito-maker" id="suavecito" checked>
-            <label for="suavecito">Suavecito</label>
-          </div>
-          <div class="maker-check">
-            <input type="checkbox" name="malin-goetz-maker" id="malin-goetz">
-            <label for="malin-goetz">Malin-Goetz</label>
-          </div>
-          <div class="maker-check">
-            <input type="checkbox" name="murrays-maker" id="murrays">
-            <label for="murrays">Murray's</label>
-          </div>
-          <div class="maker-check">
-            <input type="checkbox" name="american-crew-maker" id="american-crew" checked>
-            <label for="american-crew">American crew</label>
-          </div>
-        </fieldset>
-        <fieldset class="filter-group">
-          <legend class="group-type">Группы товаров</legend>
-          <div class="group-check">
-            <input type="radio" name="filter-group-btn" value="shaving-supplies" id="shaving-supplies">
-            <label for="shaving-supplies">Бритвенные принадлежности</label>
-          </div>
-          <div class="group-check">
-            <input type="radio" name="filter-group-btn" value="care" id ="care" checked>
-            <label for="care">Средства для ухода</label>
-          </div>
-          <div class="group-check">
-            <input type="radio" name="filter-group-btn" value="accessories" id="accessories">
-            <label for="accessories">Аксесуары</label>
-          </div>
-        </fieldset>
-        <input type="submit" value="Показать">
-        </form>
-      </div>
-      <div class="catalog">
-        <article class="catalog-item">
-          <a href="baxter-kit.html">
-            <figure>
-              <img src="img/catalog/travel-kit-boc.jpg" alt="Travel Kit BoC" width="220" height="165">
-              <figcaption>
-                <span class="item-type">Набор для путешествий</span>
-                <span class="item-maker">"BAXTER OF CALIFORNIA"</span>
-              </figcaption>
-            </figure>
-          </a>
-          <div class="price">
-            <span>2 900 РУБ.</span>
-            <a href="#">КУПИТЬ</a>
-          </div>
-        </article>
-        <article class="catalog-item">
-          <a href="#">
-            <figure>
-              <img src="img/catalog/moisturizing-conditioner-boc.jpg" alt="Moisturizing Conditioner BoC" width="220" height="165">
-              <figcaption>
-                <span class="item-type">Увлажняющий кондиционер</span>
-                <span class="item-maker">"BAXTER OF CALIFORNIA"</span>
-              </figcaption>
-            </figure>
-          </a>
-          <div class="price">
-            <span>750 РУБ.</span>
-            <a href="#">КУПИТЬ</a>
-          </div>
-        </article>
-        <article class="catalog-item">
-          <a href="#">
-            <figure>
-              <img src="img/catalog/hair-gel-suavecito.jpg" alt="Hair Gel Suavecito" width="220" height="165">
-              <figcaption>
-                <span class="item-type">Гель для волос</span>
-                <span class="item-maker">"SUAVECITO"</span>
-              </figcaption>
-            </figure>
-          </a>
-          <div class="price">
-            <span>290 РУБ.</span>
-            <a href="#">КУПИТЬ</a>
-          </div>
-        </article>
-        <article class="catalog-item">
-          <a href="#">
-            <figure>
-              <img src="img/catalog/clay-for-hair-american-crew.jpg" alt="Clay For Hair American Crew" width="220" height="165">
-              <figcaption>
-                <span class="item-type">Глина для укладки волос</span>
-                <span class="item-maker">"AMERICAN CREW"</span>
-              </figcaption>
-            </figure>
-          </a>
-          <div class="price">
-            <span>500 РУБ.</span>
-            <a href="#">КУПИТЬ</a>
-          </div>
-        </article>
-        <article class="catalog-item">
-          <a href="#">
-            <figure>
-              <img src="img/catalog/hair-gel-american-crew.jpg" alt="Hair Gel American crew" width="220" height="165">
-              <figcaption>
-                <span class="item-type">Гель для волос</span>
-                <span class="item-maker">"AMERICAN CREW"</span>
-              </figcaption>
-            </figure>
-          </a>
-          <div class="price">
-            <span>300 РУБ.</span>
-            <a href="#">КУПИТЬ</a>
-          </div>
-        </article>
-        <article class="catalog-item">
-          <a href="#">
-            <figure>
-              <img src="img/catalog/shaving-kit-boc.jpg" alt="Shaving Kit BoC" width="220" height="165">
-              <figcaption>
-                <span class="item-type">Набор для бритья</span>
-                <span class="item-maker">"BAXTER OF CALIFORNIA"</span>
-              </figcaption>
-            </figure>
-          </a>
-          <div class="price">
-            <span>3 900 РУБ.</span>
-            <a href="#">КУПИТЬ</a>
-          </div>
-        </article>
-      </div>
-      <div class="paginator">
-        <a href="#">1</a>
-        <a class="current">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
+        </div>
       </div>
     </main>
 

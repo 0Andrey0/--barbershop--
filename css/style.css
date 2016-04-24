@@ -15,6 +15,7 @@ h1, .index-content-title {
   font-size: 30px;
   line-height: 42px;
   color: #000000;
+  margin-top: 0px;
 }
 
 h2, legend {
@@ -23,11 +24,11 @@ h2, legend {
   font-size: 24px;
   line-height: 30px;
   color: #000000;
+  margin:0px;
 }
 
 .main-header {
   background-color: #000000;
-  margin-bottom: 60px;
 }
 
 .container {
@@ -68,6 +69,11 @@ h2, legend {
 }
 
 /*baxter-kit*/
+.inner-main {
+  padding-top: 60px;
+  padding-bottom: 55px;
+  background: #f04;
+}
 .item-photo {
   float: left;
   width: 460px;
@@ -87,6 +93,7 @@ h2, legend {
   vertical-align: top;
   margin-bottom: 0px;
   margin-right: 20px;
+  font-size: 14px;
 }
 
 .photo-little img:last-child {
@@ -96,21 +103,28 @@ h2, legend {
 .item-description {
   float: right;
   width: 390px;
-  padding-top: 24px;
+  padding-top: 26px;
 }
 
 .item-article {
   margin-bottom: 40px;
 }
 
-.article {
+.item-article .status {
+  float: left;
+  width: 45%;
+}
+
+.item-article .article {
   float: right;
-  width: 115px;
+  width: 45%;
   color: #aeaeae;
+  text-align: right;
 }
 
 .item-description p {
   padding: 0 1px;
+  margin: 0px;
   margin-bottom: 40px;
 }
 
@@ -120,38 +134,52 @@ h2, legend {
   margin-bottom: 67px;
 }
 
-.item-price span {
+.price-btn span {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   text-align: center;
+  font-size: 14px;
+  line-height: 43px;
   width: 109px;
-  line-height: 43px;
   background: #e5e5e5;
-  font-size: 14px;
 }
-.item-price a {
+
+.price-btn a {
   display: inline-block;
-  vertical-align: top;
-  text-align: center;
   width: 78px;
-  line-height: 43px;
-  background: #000000;
-  color: white;
+  vertical-align: middle;
+  text-align: center;
   font-size: 14px;
+  line-height: 43px;
+  color: white;
+  background: #000000;
   text-decoration: none;
+}
+
+.item-description .item-content {
+  margin-top: 39px;
+  padding-left: 20px;
+}
+
+.item-content li {
+  list-style: none;
 }
 
 /* catalog */
 .filter {
   float: left;
-  width: 220px;
+  width: 200px;
 }
 
 .filter-maker {
+  padding: 0px;
+  margin: 0px;
   margin-bottom: 35px;
   border: none;
 }
 .filter-group {
+  padding: 0px;
+  margin: 0px;
   margin-bottom: 29px;
   border: none;
 }
@@ -194,6 +222,10 @@ input[type="submit"] {
   margin-right: 0px;
 }
 
+.catalog-item a {
+  text-decoration: none;
+}
+
 .catalog figure {
   margin: 0px;
 }
@@ -204,13 +236,14 @@ input[type="submit"] {
 
 }
 .item-type {
-  text-decoration: none; /*ума не приложу, почему не работает "none". остальные св-ва работают*/
+  display: block;
   text-transform: none;
+  color: #000000;
 }
 
 .item-maker {
-  display: table;
-  text-decoration: none;
+  display: block;
+  color: #000000;
 }
 
 .price {
@@ -220,39 +253,21 @@ input[type="submit"] {
   background: red;
   font-size: 0px;
 }
-.price span {
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-  font-size: 14px;
-  line-height: 43px;
-  width: 109px;
-  background: #e5e5e5;
-}
-.price a {
-  display: inline-block;
-  width: 78px;
-  vertical-align: middle;
-  text-align: center;
-  font-size: 14px;
-  line-height: 43px;
-  color: white;
-  background: #000000;
-  text-decoration: none;
-}
 
 .paginator {
-  clear: both;
-  margin-left: 240px;
+  font-size: 0px;
+  margin-top: 45px;
 }
 .paginator a {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
+  font-size: 14px;
   width: 43px;
   line-height: 43px;
   background: #000000;
   color: white;
+  margin-right: 7px;
   text-decoration: none;
 }
 .paginator .current {
@@ -262,7 +277,6 @@ input[type="submit"] {
 
 /* Футер */
 .main-footer {
-  margin-top: 50px;
   padding-top: 60px;
   padding-bottom: 40px;
 }
